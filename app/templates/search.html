@@ -1,0 +1,13 @@
+
+{% extends 'base.html' %}
+
+{% block searchs %}
+    <h3>Search</h3>
+    <form method="POST" action="/search" style="margin:auto;max-width:600px">
+        <input type="text" placeholder="Search by firstname or lastname to see all the data">
+        <button type="submit"><em class="fa fa-search"></em>Search</button>
+    </form>
+
+{% endblock %}
+
+
